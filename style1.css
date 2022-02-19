@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+  }
+a:active {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(182, 179, 179);
+  }
+  
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    margin: 30px 0px 0px 50px;
+  }
+.row{
+    padding-top: 5%;
+}
+.container {
+    display: flex;
+    font-size: 2em;
+}
+#formbox {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+.liletters{
+    font-size: 0.5em;
+    color:rgb(165, 162, 165);
+}
+.dark-text {
+    color: black;
+}
+.form-text {
+    font-size: 0.6em;
+}
+#emailHelp {
+    text-align: left;
+    padding-left: 0;
+}
+form {
+    margin: 10px;
+    padding: 10px 5px 10px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        font-size: 6em;
+        width: 100%;
+    }
+  }

@@ -1,0 +1,94 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(toastpunknft.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: rgb(250, 250, 210);
+}
+.buffer {
+  height: 15rem;
+}
+hr{
+  border-color: yellow;
+  border-radius: 3px;
+  max-width: 65px;
+}
+.btn {
+  font-weight: 700px;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn-warning:hover{
+   padding: 1.2rem 2.4rem;
+}
+#formbox{
+  border: 2px solid black;
+}
+.last-message{
+  color: white;
+  margin-top: 5px;
+  font-style: italic;
+}
+.contact-list {
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+}
+.contact-list li {
+  display: inline-block;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+footer {
+  margin-top: 20px;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+/* Discord */
+.fa-discord {
+  background: #1a253b;
+  color: white;
+  font-size: 2em;
+  margin: 0px 10px;
+}
